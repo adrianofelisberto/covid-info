@@ -1,0 +1,17 @@
+.menu {
+  height: 60px;
+  box-shadow: 0 5px 9px #c9c9c9c9;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+.row {
+  justify-content: space-between;
+  align-content: center;
+}
+
+img {
+  margin-top: 10px;
+}
