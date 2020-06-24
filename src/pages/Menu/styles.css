@@ -1,10 +1,12 @@
 .menu {
-  height: 60px;
-  box-shadow: 0 5px 9px #c9c9c9c9;
+  height: 80px;
   position: fixed;
   top: 0;
   background-color: #fff;
   width: 100%;
+  z-index: 999999;
+  border: 1px solid rgba(28,28,28,.07);
+  box-shadow: 0 7px 6px 0 rgba(33,43,54,.04);
 }
 
 .row {
@@ -14,4 +16,9 @@
 
 img {
   margin-top: 10px;
+}
+
+.nav-link-custom {
+  font-size: 24px;
+  font-weight: 600;
 }
