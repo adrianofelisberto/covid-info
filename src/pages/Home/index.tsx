@@ -1,9 +1,13 @@
 import React from 'react';
 import './styles.css';
+import ResumeData from '../ResumeData';
 
 const Home = () => {
     return (
       <>
+        <section id="resume-data">
+          <ResumeData />
+        </section>
         <section id="whats">
           <h1>O que é COVID-19</h1>
           <p>

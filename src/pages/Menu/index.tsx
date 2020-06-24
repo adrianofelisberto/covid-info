@@ -8,22 +8,19 @@ import { Row, Media, Navbar, Nav, Container } from 'react-bootstrap';
 function Menu() {
   return (
     <header className="menu">
-      <Container>
+      <Container> 
         <Row className="row">
           <Media>
             <img 
-              height={40}
+              height={60}
               src={Logo} alt="Coronvírus"
             />
           </Media>
           <Navbar collapseOnSelect expand="lg">
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#whats">O que é?</Nav.Link>
-                <Nav.Link href="#symptoms">Sintomas</Nav.Link>
-                <Nav.Link href="#transmission">Transmissão</Nav.Link>
-                <Nav.Link href="#prevention">Prevenção</Nav.Link>
-                <Nav.Link href="#brazil">Dados no Brasil</Nav.Link>
+                <Nav.Link className="nav-link-custom" href="#whats">Home</Nav.Link>
+                <Nav.Link className="nav-link-custom" href="#brazil">Dados no Brasil</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
