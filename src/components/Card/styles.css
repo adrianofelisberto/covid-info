@@ -1,0 +1,40 @@
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+}
+
+.card label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-primary {
+  background-color: #4EA685;
+}
+
+.card-primary label {
+  color: #9FD6C8;
+}
+
+.card-secondary {
+  background-color: #c29128;
+}
+
+.card-secondary label {
+  color: #c4c38b;
+}
+
+.card-danger {
+  background-color: #c22828;
+}
+
+.card-danger label {
+  color: #fa9494;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 0;
+  color: #FCFEFD;
+}

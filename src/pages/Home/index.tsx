@@ -1,9 +1,13 @@
 import React from 'react';
 import './styles.css';
+import CardApp from '../../components/Card';
 
 const Home = () => {
     return (
       <>
+        <section id="card-info">
+          <CardApp />
+        </section>
         <section id="whats">
           <h1>O que é COVID-19</h1>
           <p>

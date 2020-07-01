@@ -19,10 +19,7 @@ function Menu() {
           <Navbar collapseOnSelect expand="lg">
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#whats">O que é?</Nav.Link>
-                <Nav.Link href="#symptoms">Sintomas</Nav.Link>
-                <Nav.Link href="#transmission">Transmissão</Nav.Link>
-                <Nav.Link href="#prevention">Prevenção</Nav.Link>
+                <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#brazil">Dados no Brasil</Nav.Link>
               </Nav>
             </Navbar.Collapse>
