@@ -4,13 +4,7 @@
   top: 0;
   background-color: #fff;
   width: 100%;
-<<<<<<< HEAD
   z-index: 9999;
-=======
-  z-index: 999999;
-  border: 1px solid rgba(28,28,28,.07);
-  box-shadow: 0 7px 6px 0 rgba(33,43,54,.04);
->>>>>>> e84dffa03558af42d7d763e0621a8170ca70b6d4
 }
 
 .row {

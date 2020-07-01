@@ -1,21 +1,12 @@
 import React from 'react';
 import './styles.css';
-<<<<<<< HEAD
 import CardApp from '../../components/Card';
-=======
-import ResumeData from '../ResumeData';
->>>>>>> e84dffa03558af42d7d763e0621a8170ca70b6d4
 
 const Home = () => {
     return (
       <>
-<<<<<<< HEAD
         <section id="card-info">
           <CardApp />
-=======
-        <section id="resume-data">
-          <ResumeData />
->>>>>>> e84dffa03558af42d7d763e0621a8170ca70b6d4
         </section>
         <section id="whats">
           <h1>O que é COVID-19</h1>
